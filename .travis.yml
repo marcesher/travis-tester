@@ -1,4 +1,4 @@
 language: bash
 
 script:
-    - bash test.sh
+    - bash <(curl -s https://raw.github.com/dlapiduz/clouseau/travis/travis_clouseau.sh)
