@@ -1,5 +1,4 @@
 language: python
 
 script:
-    - source ~/virtualenv/python2.7/bin/activate
     - bash <(curl -s https://raw.github.com/dlapiduz/clouseau/travis/travis_clouseau.sh)
