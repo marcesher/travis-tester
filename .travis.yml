@@ -1,4 +1,4 @@
-language: bash
+language: python
 
 script:
     - source ~/virtualenv/python2.7/bin/activate
